@@ -1,0 +1,5 @@
+print('=====','DESAFIO 026','=====')
+frase=str(input('Dgite uma frase:')).upper().strip()
+print('Aparece {} vezes a letra A.'.format(frase.count('A')))
+print('Aparece a primeira vez na posição {}.'.format(frase.find('A')))
+print('Aparece a ultima vez na posição {}.'.format(frase.rfind('A')))
